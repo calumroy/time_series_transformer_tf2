@@ -1,6 +1,7 @@
 FROM tensorflow/tensorflow:latest-gpu-jupyter
 
 RUN pip install jupyterlab
+RUN pip install tensorflow-datasets
 
 RUN apt-get update -qqy \
   && apt-get -qqy --no-install-recommends install firefox

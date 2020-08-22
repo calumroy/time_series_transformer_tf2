@@ -2,7 +2,7 @@
 A tensorflow 2 transformer nerual network working with time series data.
 
 # To get the docker container already setup 
-`docker pull docker.pkg.github.com/calumroy/time_series_transformer_tf2/tf2_jupyter_ade:latest`
+`docker push docker.pkg.github.com/calumroy/tf2_func_tests/tf2_jupyter_ade:latest`
 
 # To run and enter the docker container
 From this directory
@@ -17,7 +17,7 @@ Run this to view and interact with the notebooks.
 `docker build -t tf2_jupyter_ade .`
 
 # Push a new docker image to the repos container repository
-`docker push docker.pkg.github.com/calumroy/time_series_transformer_tf2/tf2_jupyter_ade:latest`
+`docker push docker.pkg.github.com/calumroy/tf2_func_tests/tf2_jupyter_ade:latest`
 
 
 # login to github to push new contianers
