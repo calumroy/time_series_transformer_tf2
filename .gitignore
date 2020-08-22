@@ -1,0 +1,12 @@
+.bash_history
+.bash_logout
+.cache/*
+.ipynb_checkpoints/*
+.ipython/*
+.jupyter/*
+.keras/*
+.local/*
+.mozilla/*
+.profile
+.ssh/*
+
